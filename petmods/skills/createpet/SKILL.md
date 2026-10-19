@@ -14,7 +14,7 @@ Arguments: the pet name (lowercase letters, digits, hyphens). Then ask the user 
 3. Run the script. It is bundled, so run it and do not read it:
 
 ```bash
-python3 -I .claude/skills/createpet/scripts/createpet.py <name> "<folder>" --display "<display>" --kind "<kind>" --step <n>
+python3 -I ~/.claude/mods/endorphin_mods/petmods/skills/createpet/scripts/createpet.py <name> "<folder>" --display "<display>" --kind "<kind>" --step <n>
 ```
 
 Options: `--move` (default `dance`), `--seconds` per frame (default 0.1), `--height` in cells (default 42, pixel-kitty's), `--colors` (default 24), `--key` background color.
