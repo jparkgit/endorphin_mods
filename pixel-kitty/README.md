@@ -16,6 +16,7 @@ With several pet mods loaded, each turn shows one of the loaded pets. Each mod w
 To choose for the rest of the session, type one of these in the desktop app:
 
 - **`/pet kitty`:** Shows the kittens every turn.
+- **`/pet nosedance`:** Shows the nosedance cat every turn.
 - **`/pet random`:** Picks a pet each turn. This is the default.
 
 ## Requirements

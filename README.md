@@ -18,6 +18,18 @@ The kittens, two dancing pixel kittens, replaces the orange working dots in the 
 
 To install it, see [pixel-kitty/README.md](pixel-kitty/README.md).
 
+## nosedance
+
+The nosedance cat, a dancing pixel kitten, replaces the orange working dots in the desktop app. It plays 1 move.
+
+<table align="center">
+  <tr>
+    <td align="center"><img src="nosedance/frames/dance_00.svg" width="64" alt="Dance"><br>dance</td>
+  </tr>
+</table>
+
+To install it, see [nosedance/README.md](nosedance/README.md).
+
 ## Choosing a pet
 
-With several pet mods loaded, each turn shows one of them. Type `/pet kitty` or `/pet random` in the desktop app to choose for the rest of the session.
+With several pet mods loaded, each turn shows one of them. Type `/pet kitty`, `/pet nosedance` or `/pet random` in the desktop app to choose for the rest of the session.

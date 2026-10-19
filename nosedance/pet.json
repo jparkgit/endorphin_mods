@@ -1,0 +1,21 @@
+{
+  "mod": "nosedance",
+  "word": "nosedance",
+  "name": "the nosedance cat",
+  "kind": "a dancing pixel kitten",
+  "summary": "dances in place",
+  "moves": [
+    {
+      "name": "dance",
+      "frames": 23
+    }
+  ],
+  "frame_seconds": 0.1,
+  "covers": [
+    [
+      "dance_00",
+      "Dance",
+      "dance"
+    ]
+  ]
+}
