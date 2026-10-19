@@ -10,8 +10,6 @@
 
 // Every pet, in one fixed order all copies agree on: its mod, the word /pet takes, and its name.
 export const PETS = [
-  { mod: 'pixel-cat', word: 'cat', name: 'the cat' },
-  { mod: 'pixel-cherie', word: 'cherie', name: 'Cherie' },
   { mod: 'pixel-kitty', word: 'kitty', name: 'the kittens' },
 ] as const
 

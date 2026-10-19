@@ -11,12 +11,10 @@ The desktop app still draws its own dots in the step header while a tool runs. M
 
 ## Choosing a pet
 
-With [pixel-cat](../pixel-cat) or [pixel-cherie](../pixel-cherie) also loaded, each turn shows one of the loaded pets. Each mod works alone.
+With several pet mods loaded, each turn shows one of the loaded pets. Each mod works alone.
 
 To choose for the rest of the session, type one of these in the desktop app:
 
-- **`/pet cat`:** Shows the cat every turn.
-- **`/pet cherie`:** Shows Cherie every turn.
 - **`/pet kitty`:** Shows the kittens every turn.
 - **`/pet random`:** Picks a pet each turn. This is the default.
 
@@ -34,12 +32,12 @@ To choose for the rest of the session, type one of these in the desktop app:
 4. Run `claude plugin validate ~/.claude/mods/pixel-kitty` and check that it ends with Validation passed.
 5. Restart Claude Code. Sessions that were already open do not load new mods.
 
-Example `env` block with every pet:
+Example `env` block; add more pet folders after a colon:
 
 ```json
 {
   "env": {
-    "CLAUDE_CODE_PLUGIN_DIRS": "/Users/yourname/.claude/mods/pixel-cat:/Users/yourname/.claude/mods/pixel-cherie:/Users/yourname/.claude/mods/pixel-kitty"
+    "CLAUDE_CODE_PLUGIN_DIRS": "/Users/yourname/.claude/mods/pixel-kitty"
   }
 }
 ```
