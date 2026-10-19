@@ -44,10 +44,10 @@ To install it, see [nosedance/README.md](nosedance/README.md).
    git -C ~/.claude/mods/endorphin_mods config pull.ff only
    ```
 
-3. Add each pet folder you want, such as `~/.claude/mods/endorphin_mods/pixel-kitty`, to `CLAUDE_CODE_PLUGIN_DIRS` as the pet's README describes. Add `~/.claude/mods/endorphin_mods/petmods` too, to get the `/petmods:createpet` and `/petmods:fetchpetmods` skills in every project.
+3. Add each pet folder you want, such as `~/.claude/mods/endorphin_mods/pixel-kitty`, to `CLAUDE_CODE_PLUGIN_DIRS` as the pet's README describes. Add `~/.claude/mods/endorphin_mods/petmods` too, to get the `/petmods:fetchpetmods` skill in every project.
 4. To update, run `/petmods:fetchpetmods`, or run `git -C ~/.claude/mods/endorphin_mods pull origin main`. Restart Claude Code afterwards.
 
-Pets are added by the repo owner only. Other users just receive them through `/petmods:fetchpetmods`, so leave the pet folders unedited and skip `/petmods:createpet`. Any local commit stops the fast-forward pull. To suggest a pet, open a pull request.
+Pets are added by the repo owner only. Other users just receive them through `/petmods:fetchpetmods`, so leave the pet folders unedited. Any local commit stops the fast-forward pull. To suggest a pet, open a pull request.
 
 ## Choosing a pet
 
